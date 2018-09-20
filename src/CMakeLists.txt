@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.8)
 project(pluginTemplate)
 
+SET(CMAKE_CXX_STANDARD 11)
+
 SET(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cgcmake/modules)
 
 SET(SOURCE_FILES "plugin.h;plugin.cpp")
